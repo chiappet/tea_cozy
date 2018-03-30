@@ -61,6 +61,93 @@ span a {
   color: seashell;
 }
 
-/* Content */
+/* Main Content Container */
+
+.content {
+  /* display: flex; */
+  width: 1200px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 32px; */
+}
 
 /* Top */
+
+.jumbotron .image-content{
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin-top: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.jumbotron .image-content h2 {
+  background-color: black;
+  padding: 10px;
+  margin: 0;
+}
+
+.jumbotron .image-content span {
+  background-color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/*  Middle */
+
+.container.middle {
+  display: flex;
+  display: inline-block;
+  flex-direction: row;
+  text-align: center;
+}
+
+.container .middle {
+  width: 1000px;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.square1 img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.square2 img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.square3 img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.square4 img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.square5 img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
